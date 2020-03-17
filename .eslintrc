@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "env": { "browser": true, "node": true },
+  "rules": {
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-console": "off"
+  }
+}
